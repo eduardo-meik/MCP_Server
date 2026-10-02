@@ -1,0 +1,17 @@
+project_id   = "meik-mcp-acme"
+client_slug  = "acme"
+environment  = "staging"
+image        = "southamerica-west1-docker.pkg.dev/meik-mcp-acme/mcp/boostr-kyc:0.1.0"
+base_url     = "https://mcp-acme-xxxxxxxx.southamerica-west1.run.app"
+
+auth_provider   = "azure"
+azure_tenant_id = "00000000-0000-0000-0000-000000000000"
+azure_client_id = "00000000-0000-0000-0000-000000000000"
+
+# auth_provider          = "google"
+# google_client_id       = "123.apps.googleusercontent.com"
+# google_allowed_domains = ["acme.cl"]
+
+role_assignments = {}
+
+create_firestore_database = true
